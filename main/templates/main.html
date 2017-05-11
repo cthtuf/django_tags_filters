@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <p>MD5 hash of string 'blabla' is '{{ "123"|get_hash:"md5" }}'</p>
-    <p>SHA hash of string 'blabla' is '{{ "123"|get_hash:"sha1" }}'</p>
+    <p>MD5 hash of string 'blabla' is '{{ "blabla"|get_hash:"md5" }}'</p>
+    <p>SHA hash of string 'blabla' is '{{ "blabla"|get_hash:"sha1" }}'</p>
     {% get_random_string 10 as random_string %}
     <p>Random string is '{{ random_string }}'</p>
 </head>
